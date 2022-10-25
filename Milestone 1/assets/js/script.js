@@ -57,3 +57,4 @@ for (let indice in team){
 
     console.log(output);
 }
+
