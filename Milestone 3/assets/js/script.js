@@ -11,7 +11,7 @@ Stampare le stesse informazioni su DOM sotto forma di stringhe
 DONE - MILESTONE 3:
 Stampare delle card formattate contenete immagini e testo (La grafica fornita è solo un esempio ma sentitevi liberi di “graficare” come preferite)
 
-TODO - BONUS:
+DONE - BONUS:
 Aggiungere degli aggettivi (più di uno) che identifichino ogni persona e stamparli nella card
 */
 
@@ -94,9 +94,3 @@ for (let indice in team){
         </div>
     </div>`;
 }
-
-
-
-
-
-
