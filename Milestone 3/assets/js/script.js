@@ -57,7 +57,7 @@ let team = [
         ruolo: "Developer",
         foto: "scott-estrada-developer.jpg",
         aggettivi: [
-            "professionale",
+            "Professionale",
             "Ambizioso"
         ]
     },
@@ -87,11 +87,9 @@ for (let indice in team){
         <div class="ms-card">
             <img src="assets/img/${person.foto}" alt="${person.nome}" class="card-image">
             <div class="card-description">
-                <p class="text-title">${person.nome}</p>
-                <p class="text-body">${person.ruolo}</p>
-                <div>
-                    ${aggettivoOutput}
-                </div>
+                <p class="text-title m-1">${person.nome}</p>
+                <p class="text-body m-1">${person.ruolo}</p>
+                <div>${aggettivoOutput}</div>
             </div>
         </div>
     </div>`;
